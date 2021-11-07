@@ -25,6 +25,6 @@ Resources:
       MemorySize: 512
       Timeout: 60
       Handler: index.handler
-      Runtime: nodejs6.10
+      Runtime: nodejs14.x
       CodeUri: .
       Description: !Ref LambdaDescription
